@@ -31,8 +31,8 @@ Kanalservice_guide.pdf    Исходный брендбук
 Как git-зависимость (npm/pnpm/yarn — по аналогии):
 
 ```bash
-npm install "git+ssh://git@github.com:ВАША-ОРГ/ks_brandbook.git#main"
-# или тег: ...git#v1.0.0
+npm install "git+ssh://git@github.com/AlexRussianPyth/ks_brandbook.git#v1.0.0"
+# или просто за main: ...git#main
 ```
 
 или скопировать `dist/` и `assets/` куда угодно — они самодостаточны.

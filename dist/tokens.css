@@ -1,0 +1,27 @@
+:root {
+  --ks-color-signal-blue: #0041A0;
+  --ks-color-signal-orange: #FF4200;
+  --ks-color-pure-white: #FFFFFF;
+  --ks-color-key-water: #0096F0;
+  --ks-color-blue-bright: #0064C8;
+  --ks-color-blue-dark: #003778;
+  --ks-color-orange-dark: #CE3200;
+  --ks-color-orange-light: #FF6100;
+  --ks-color-gray: #BEC3CE;
+  --ks-color-gray-light: #E3E8ED;
+  --ks-role-primary: #0041A0;
+  --ks-role-accent: #FF4200;
+  --ks-role-background: #FFFFFF;
+  --ks-role-on-dark: #FFFFFF;
+  --ks-font-family-base: Onest;
+  --ks-font-weight-thin: 100;
+  --ks-font-weight-extra-light: 200;
+  --ks-font-weight-light: 300;
+  --ks-font-weight-regular: 400;
+  --ks-font-weight-medium: 500;
+  --ks-font-weight-semi-bold: 600;
+  --ks-font-weight-bold: 700;
+  --ks-font-weight-extra-bold: 800;
+  --ks-font-weight-black: 900;
+  --ks-asset-logo-min-height: 4mm;
+}

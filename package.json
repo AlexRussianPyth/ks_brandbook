@@ -1,0 +1,27 @@
+{
+  "name": "@kanalservice/brand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Бренд-кит «Каналсервис»: дизайн-токены, SVG/PNG-ассеты и готовые форматы (CSS, SCSS, JS, Tailwind). Источник — Kanalservice_guide.pdf.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./css": "./dist/tokens.css",
+    "./scss": "./dist/tokens.scss",
+    "./tailwind-preset": "./dist/tailwind-preset.cjs",
+    "./tailwind-preset.mjs": "./dist/tailwind-preset.mjs",
+    "./tokens.json": "./tokens/tokens.json",
+    "./assets/*": "./assets/*",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "tokens",
+    "assets"
+  ],
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "extract:assets": "python3 tools/extract_assets.py"
+  }
+}
